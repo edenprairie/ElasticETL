@@ -116,7 +116,7 @@ namespace MSSQLElasticSearchETL
                     {
                         XmlSerializer serializer = new XmlSerializer(typeof(Nlx.Claim));
 
-                        NlxClass.MedRxEncryptionKey key = new NlxClass.MedRxEncryptionKey("LKW34ippHJ34Cvvw+OkkRE56GdvWRETT", "JeLpo301/KJ=");
+                        NlxClass.MedRxEncryptionKey key = new NlxClass.MedRxEncryptionKey("dummy key", "dummy salt");
 
 
                         Nlx.Claim clm = new Nlx.Claim();
